@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\sistema_ventas\\practica\\vista_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|solutionrelative:practica\\vista_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\practica\\datos\\datos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|solutionrelative:practica\\datos\\datos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\practica\\vista_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|solutionrelative:practica\\vista_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\practica\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|solutionrelative:practica\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\practica\\vista_inventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5390F27-2942-4AD5-94FF-86D9A127E421}|Practica\\Practica.csproj|solutionrelative:practica\\vista_inventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Datos_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Datos\\Datos_Productos.cs",
+              "RelativeDocumentMoniker": "Practica\\Datos\\Datos_Productos.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Datos\\Datos_Productos.cs",
+              "RelativeToolTip": "Practica\\Datos\\Datos_Productos.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAiwJgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:21:13.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vista_Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.cs",
+              "RelativeDocumentMoniker": "Practica\\Vista_Inventario.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.cs*",
+              "RelativeToolTip": "Practica\\Vista_Inventario.cs*",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAiwKgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:51:15.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Datos\\Conexion.cs",
+              "RelativeDocumentMoniker": "Practica\\Datos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Datos\\Conexion.cs",
+              "RelativeToolTip": "Practica\\Datos\\Conexion.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:21:15.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vista_Inventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.cs",
+              "RelativeDocumentMoniker": "Practica\\Vista_Inventario.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica\\Vista_Inventario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:15:47.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vista_Inventario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.Designer.cs",
+              "RelativeDocumentMoniker": "Practica\\Vista_Inventario.Designer.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\Sistema_Ventas\\Practica\\Vista_Inventario.Designer.cs",
+              "RelativeToolTip": "Practica\\Vista_Inventario.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:07:02.847Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

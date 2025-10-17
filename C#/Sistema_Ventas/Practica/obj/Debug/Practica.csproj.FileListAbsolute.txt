@@ -1,0 +1,11 @@
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\bin\Debug\Practica.exe.config
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\bin\Debug\Practica.exe
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\bin\Debug\Practica.pdb
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.Properties.Resources.resources
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.Vista_Inventario.resources
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.csproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.exe
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.pdb
+C:\Users\Alejandro\Documents\Programas\C#\Sistema_Ventas\Practica\obj\Debug\Practica.exe.config
