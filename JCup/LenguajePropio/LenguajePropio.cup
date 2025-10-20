@@ -1,0 +1,90 @@
+
+
+import java_cup.runtime.*;
+
+parser code {:
+    /** Método para reportar errores sintácticos */
+    public void syntax_error(Symbol s) {
+        System.out.println("Error Sintáctico en la Línea " + (s.left+1) +
+                           " Columna "+(s.right+1)+ ". Símbolo no esperado: " +s.value);
+    }
+    
+    /** Método para reportar errores sintácticos irrecuperables */
+    public void unrecovered_syntax_error(Symbol s) throws java.lang.Exception {
+        System.out.println("Error Sintáctico Irrecuperable en la Línea " + (s.left+1) +
+                           " Columna "+(s.right+1)+ ". Componente: " + s.value + " no reconocido.");
+    }
+:};
+
+/* ---------------------- Sección de Declaraciones ---------------------- */
+
+/* Precedencia de operadores (opcional, pero recomendada) */
+// Se usa %left, %right o %nonassoc para definir asociatividad y precedencia,
+// de menor a mayor precedencia.
+%left '+' '-'
+%left '*' '/'
+
+/* Símbolos Terminales (Tokens del Analizador Léxico) */
+terminal String INICIOCODIGO, FINCODIGO, MAYORQUE, MENORQUE, MIENTRAS, CUANDO, IMPRIMIR, GUARDAR, VAR, UNIR;
+terminal String ENTEROS, DECIMALES, PALABRAS;
+terminal String MAS, MENOS, POR, DIVIDIDO; // Usaremos nombres más cortos para +, -, *, /
+terminal String ASIGNACION; // Para el token ':'
+terminal String OPERADOR_ESCRITURA_AP, OPERADOR_ESCRITURA_CI; // Para [ y ]
+terminal String SECCIONADOR_AP, SECCIONADOR_CI; // Para ( y )
+terminal String FINALIZADOR_LINEA; // Para \
+terminal String VARIABLE, NUMERO;
+
+/* Símbolos No Terminales (Reglas de la Gramática) */
+non terminal programa, lista_sentencias, sentencia, declaracion, asignacion, expresion, termino;
+
+/* Símbolo de inicio de la gramática */
+start with programa;
+
+/* ---------------------- Sección de Reglas Gramaticales ---------------------- */
+
+programa ::= 
+    INICIOCODIGO lista_sentencias FINCODIGO
+    ;
+
+lista_sentencias ::= 
+      sentencia lista_sentencias 
+    | /* vacío (cero o más sentencias) */ 
+    ;
+
+sentencia ::= 
+      declaracion FINALIZADOR_LINEA 
+    | asignacion FINALIZADOR_LINEA
+    // ... otras sentencias como MIENTRAS, CUANDO, IMPRIMIR, etc.
+    ;
+
+declaracion ::= 
+    VAR tipo_dato VARIABLE // VAR seguido de tipo y nombre de variable
+    ;
+
+tipo_dato ::= 
+      ENTEROS
+    | DECIMALES
+    | PALABRAS
+    ;
+
+asignacion ::= 
+    VARIABLE ASIGNACION expresion // VAR : EXPR
+    ;
+
+expresion ::= 
+      expresion MAS termino 
+    | expresion MENOS termino
+    | termino
+    ;
+    
+termino ::= 
+      termino POR factor
+    | termino DIVIDIDO factor
+    | factor
+    ;
+
+factor ::=
+      NUMERO
+    | VARIABLE
+    | SECCIONADOR_AP expresion SECCIONADOR_CI // ( EXPR )
+    ;

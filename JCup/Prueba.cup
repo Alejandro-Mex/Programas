@@ -1,0 +1,63 @@
+package EjemploCalculadora;
+
+import java_cup.runtime.*;
+
+/* ---------------------------------------------------- */
+/* Código de usuario (Sección 2)                         */
+/* Incluye código Java en el parser generado (parser.java)*/
+/* ---------------------------------------------------- */
+parser code {:
+    /** Reporta un error de sintaxis no recuperable. */
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+        done_parsing();
+        report_error(message, info);
+    }
+    
+    /** Reporta un error de sintaxis recuperable. */
+    public void syntax_error(Symbol cur_token) {
+        System.err.println("Error sintáctico en la línea " + (cur_token.left + 1) + 
+                           ", columna " + (cur_token.right + 1) + 
+                           ". Token no esperado: " + cur_token.value);
+    }
+:};
+
+/* ---------------------------------------------------- */
+/* Símbolo de valor (Sección 2.1)                       */
+/* Tipo de dato para el resultado global (parser.value)   */
+/* ---------------------------------------------------- */
+init with {: /* no hay código de inicialización especial */ :};
+scan with {: return getScanner().next_token(); :};
+
+/* ---------------------------------------------------- */
+/* Símbolos Terminales y No Terminales (Sección 3)      */
+/* Se especifica su tipo de valor (ej: Integer para los números) */
+/* ---------------------------------------------------- */
+terminal Integer NUMBER;
+terminal PLUS, MINUS, TIMES, DIVIDE, SEMICOLON;
+
+non terminal expr_list, expr;
+non terminal Integer program_result;
+
+/* ---------------------------------------------------- */
+/* Precedencia (Sección 4)                              */
+/* De menor a mayor precedencia (asociatividad izquierda por defecto) */
+/* ---------------------------------------------------- */
+precedence left PLUS, MINUS;
+precedence left TIMES, DIVIDE;
+
+/* ---------------------------------------------------- */
+/* Regla de Inicio (start with) y Reglas de Producción (Sección 5) */
+/* ---------------------------------------------------- */
+start with expr_list;
+
+expr_list ::= expr_list expr SEMICOLON
+           | expr SEMICOLON
+           ;
+
+/* Definición de la expresión 'expr' */
+expr ::= expr:l PLUS expr:r    {: RESULT = new Integer(l.intValue() + r.intValue()); :}
+      | expr:l MINUS expr:r   {: RESULT = new Integer(l.intValue() - r.intValue()); :}
+      | expr:l TIMES expr:r   {: RESULT = new Integer(l.intValue() * r.intValue()); :}
+      | expr:l DIVIDE expr:r  {: RESULT = new Integer(l.intValue() / r.intValue()); :}
+      | NUMBER:n              {: RESULT = n; :}
+      ;

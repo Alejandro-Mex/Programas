@@ -1,3 +1,7 @@
 {
-    "dotnet.preferCSharpExtension": true
+    "dotnet.preferCSharpExtension": true,
+    "java.project.sourcePaths": [
+        "Java/SDA2/src",
+        "Java/PruebaCup"
+    ]
 }

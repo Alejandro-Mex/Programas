@@ -1,0 +1,11 @@
+INICIOCODIGO
+VAR ENTERO Repeticiones : 5 \
+VAR ENTERO Inicio \
+MIENTRAS Repeticiones MAYORQUE Inicio(
+	VAR DECIMAL Numero1 : 1.5 \
+	VAR DECIMAL Numero2 \
+	1 + 0.5 = 1.5 \
+	IMPRIMIR [ El Resultado es ] UNIR 1.5 \
+	INICIO = INICIO + 1 \
+)
+FINCODIGO

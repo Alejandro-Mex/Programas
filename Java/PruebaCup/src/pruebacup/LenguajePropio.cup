@@ -1,0 +1,78 @@
+
+/* Sección de código de usuario */
+package pruebacup;
+import java_cup.runtime.Symbol;
+
+parser code {:
+    private Symbol s;
+    
+    public void syntax_error(Symbol s){
+        this.s = s;
+    }
+
+    public Symbol getS(){
+        return this.s;
+    }
+:};
+
+/* ---------------------- Sección de Declaraciones ---------------------- */
+
+
+
+terminal INICIOCODIGO, FINCODIGO, MAYORQUE, MENORQUE, MIENTRAS, CUANDO, IMPRIMIR, GUARDAR, VAR, UNIR,
+MAS, MENOS, POR, DIVIDIDO, ASIGNACION, PARENTESIS_AP, PARENTESIS_CI, CORCHETE_AP, CORCHETE_CI,FINALIZADOR_LINEA,VARIABLE, NUMERO,
+ENTERO, TIPO_DECIMAL, TIPO_PALABRA,ERROR, IGUAL;
+
+
+non terminal operacion, mostrar, tipo_dato, programa, lista_sentencias, sentencia, declaracion, repeticion;
+
+start with programa;
+
+
+
+programa ::= 
+    INICIOCODIGO lista_sentencias FINCODIGO
+    ;
+
+lista_sentencias ::= 
+    sentencia lista_sentencias
+    |sentencia
+    |repeticion
+    ;
+
+sentencia ::= 
+      declaracion FINALIZADOR_LINEA
+      |operacion FINALIZADOR_LINEA
+      |mostrar FINALIZADOR_LINEA
+      |VARIABLE IGUAL VARIABLE MAS NUMERO
+    ;
+
+declaracion ::= 
+    VAR tipo_dato VARIABLE 
+    |VAR tipo_dato VARIABLE ASIGNACION NUMERO
+    ;
+
+tipo_dato ::= 
+    ENTERO
+    |TIPO_DECIMAL
+    |TIPO_PALABRA
+    ;
+
+operacion ::=
+    NUMERO MAS NUMERO IGUAL NUMERO
+    |NUMERO MENOS NUMERO IGUAL NUMERO
+    |NUMERO POR NUMERO IGUAL NUMERO
+    |NUMERO DIVIDIDO NUMERO IGUAL NUMERO
+    ;
+
+mostrar ::= 
+    IMPRIMIR CORCHETE_AP VARIABLE VARIABLE VARIABLE CORCHETE_CI
+    |IMPRIMIR CORCHETE_AP VARIABLE VARIABLE VARIABLE CORCHETE_CI UNIR NUMERO
+    ;
+
+
+repeticion ::= 
+    MIENTRAS VARIABLE MAYORQUE VARIABLE PARENTESIS_AP sentencia PARENTESIS_CI
+    ;
+
+
