@@ -1,0 +1,49 @@
+﻿@model CrudNet8MVC.Models.Producto
+@{
+    ViewData["Title"] = "Crear Producto"; 
+}
+
+<h1 class="display-4 text-center">Productos</h1>
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Crear producto</strong></h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Crear" method="post">
+                    <div asp-validation-summary="ModelOnly" class="2text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" placeholder="Nombre del producto"/>
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Categoria" class="control-label"></label>
+                        <input asp-for="Categoria" class="form-control" placeholder="Categoria del producto" />
+                        <span asp-validation-for="Categoria" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Precio" class="control-label"></label>
+                        <input asp-for="Precio" class="form-control" placeholder="Precio del producto"/>
+                        <span asp-validation-for="Precio" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Stock" class="control-label"></label>
+                        <input asp-for="Stock" class="form-control" placeholder="Stock del producto" />
+                        <span asp-validation-for="Stock" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-secondary d-block mx-auto">
+                                <i class="fa fa-book" aria-hidden="true"></i>Guardar producto
+                        </button>
+                    </div>
+
+                </form>
+                <a asp-controller="Home" asp-action="Index">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>
+

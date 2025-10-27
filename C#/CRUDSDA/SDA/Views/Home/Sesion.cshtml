@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Menu principal";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sesión Iniciada</h1>
+    <p>Has iniciado sesión correctamente.</p>
+</div>
+
+<div class="row mt-1">
+    <div class="offset-1 col-2 mb-5">
+        <img src="~/img/Propietario.png" class="img-fluid mx-auto d-block" />
+        <a asp-action="Productor" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Productor
+        </a>
+    </div>
+
+    <div class="offset-2 col-2 mb-5">
+        <img src="~/img/Animal.png" class="img-fluid mx-auto d-block" />
+        <a asp-action="Animales" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Animales
+        </a>
+    </div>
+
+    <div class="offset-2 col-2 mb-5">
+        <img src="~/img/Empleados.jpg" class="img-fluid mx-auto d-block" />
+        <a asp-action="Empleados" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Empleados
+        </a>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="offset-1 col-2 mb-5">
+        <img src="~/img/Especie.jpg" class="img-fluid mx-auto d-block" />
+        <a asp-action="Especie" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Especie
+        </a>
+    </div>
+
+    <div class="offset-2 col-2 mb-5">
+        <img src="~/img/Rancho.png" class="img-fluid mx-auto d-block" />
+        <a asp-action="Rancho" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Rancho
+        </a>
+    </div>
+
+    <div class="offset-2 col-2 mb-5">
+        <img src="~/img/Municipio.jpg" class="img-fluid mx-auto d-block" />
+        <a asp-action="Municipio" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Municipio
+        </a>
+    </div>
+</div>
+
+<div class="row mt-5">
+
+    <div class="offset-5 col-2 mb-5">
+        <img src="~/img/Genero.jpg" class="img-fluid mx-auto d-block"/>
+        <a asp-action="ConsultaSexo" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Sexo
+        </a>
+    </div>
+
+</div>

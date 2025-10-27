@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9DAECB0-B5F4-4CC0-A720-8836D5C0FFCD}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\crudnet8mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E9DAECB0-B5F4-4CC0-A720-8836D5C0FFCD}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\crudnet8mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\views\\home\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\views\\home\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\views\\home\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\views\\home\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\proyectocrudnet8mvc\\crudnet8mvc\\views\\home\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05EE548C-55E6-4105-BBA4-0F31F2D2F78D}|CrudNet8MVC\\CrudNet8MVC.csproj|solutionrelative:crudnet8mvc\\views\\home\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CrudNet8MVC",
-              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\CrudNet8MVC.csproj",
-              "RelativeDocumentMoniker": "CrudNet8MVC\\CrudNet8MVC.csproj",
-              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\CrudNet8MVC.csproj",
-              "RelativeToolTip": "CrudNet8MVC\\CrudNet8MVC.csproj",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\appsettings.json",
+              "RelativeToolTip": "CrudNet8MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T03:20:43.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Models\\Producto.cs",
+              "RelativeToolTip": "CrudNet8MVC\\Models\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-27T03:28:40.966Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:17:13.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CrudNet8MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T02:51:05.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Editar.cshtml",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Views\\Home\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Editar.cshtml",
+              "RelativeToolTip": "CrudNet8MVC\\Views\\Home\\Editar.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T02:50:34.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Borrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Borrar.cshtml",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Views\\Home\\Borrar.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Borrar.cshtml",
+              "RelativeToolTip": "CrudNet8MVC\\Views\\Home\\Borrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T02:50:30.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Views\\Home\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Detalle.cshtml",
+              "RelativeToolTip": "CrudNet8MVC\\Views\\Home\\Detalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T02:50:29.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Crear.cshtml",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Views\\Home\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Crear.cshtml",
+              "RelativeToolTip": "CrudNet8MVC\\Views\\Home\\Crear.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T02:50:40.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudNet8MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\ProyectoCrudNet8MVC\\CrudNet8MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CrudNet8MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T01:29:02.363Z",
               "EditorCaption": ""
             }
           ]

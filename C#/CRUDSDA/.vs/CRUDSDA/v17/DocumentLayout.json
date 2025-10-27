@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\consultasexo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\consultasexo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\sexocrear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\sexocrear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\sexoeditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\sexoeditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\sexoborrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\sexoborrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|c:\\users\\alejandro\\documents\\programas\\c#\\crudsda\\sda\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83500BB1-443F-4559-8D38-DBB9C3A7B2F8}|SDA\\SDA.csproj|solutionrelative:sda\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T03:52:47.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SexoBorrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoBorrar.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\SexoBorrar.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoBorrar.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\SexoBorrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T03:42:34.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SexoEditar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoEditar.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\SexoEditar.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoEditar.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\SexoEditar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T03:30:47.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SexoCrear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoCrear.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\SexoCrear.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\SexoCrear.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\SexoCrear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T03:09:57.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsultaSexo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\ConsultaSexo.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\ConsultaSexo.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\ConsultaSexo.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\ConsultaSexo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T02:56:57.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\Sesion.cshtml",
+              "RelativeDocumentMoniker": "SDA\\Views\\Home\\Sesion.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Views\\Home\\Sesion.cshtml",
+              "RelativeToolTip": "SDA\\Views\\Home\\Sesion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T02:57:23.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SDA\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Documents\\Programas\\C#\\CRUDSDA\\SDA\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SDA\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwFIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T02:51:16.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

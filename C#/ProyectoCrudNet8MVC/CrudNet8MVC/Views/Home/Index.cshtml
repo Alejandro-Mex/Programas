@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CrudNet8MVC.Models.Producto>
+
+@{
+    ViewData["Title"] = "Principal";
+}
+
+<h1 class="display-4 text-center">Lista de Productos</h1>
+<div class="row">
+    <div class="offset-9 col-3 mb-3">
+        <a asp-action="Crear" asp-controller="Home" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Nuevo Producto
+        </a>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Lista de productos</strong></h3>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    @if(Model.Count() > 0)
+                    {
+                        <table class="table table-bordered" id="tblProductos" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(m => m.Id)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Nombre)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Categoria)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Precio)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Stock)</th>
+                                    <th>Operaciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(m => item.Id)</td>
+                                        <td>@Html.DisplayFor(m => item.Nombre)</td>
+                                        <td>@Html.DisplayFor(m => item.Categoria)</td>
+                                        <td>@Html.DisplayFor(m => item.Precio)</td>
+                                        <td>@Html.DisplayFor(m => item.Stock)</td>
+                                        <td>
+                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id="@item.Id">
+                                                <i class="fa fa-pencil" aria-hidden="true"></i> Editar
+                                            </a>
+                                            <a class="btn btn-info" asp-action="Detalle" asp-route-id="@item.Id">
+                                                <i class="fa fa-info-circle" aria-hidden="true"></i>Detalle
+                                            </a>
+                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id">
+                                                <i class="fa fa-trash" aria-hidden="true"></i> Eliminar
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    } 
+                    else
+                    {
+                       <p>No hay registros</p> 
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,17 +1,14 @@
 ﻿using CrudNet8MVC.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 namespace CrudNet8MVC.Datos
 {
-    public class ApplicationDbContext: DbContext
-    { 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options ) : base(options)
-        {
-            
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        {    
         }
-
-        //Agregar los modelos aqui(Cada modelo corresponde a una tabla)SS
-
-        public DbSet<Contacto> Contacto { get; set; }
+        public DbSet<Producto> Producto { get; set; }
     }
 }
