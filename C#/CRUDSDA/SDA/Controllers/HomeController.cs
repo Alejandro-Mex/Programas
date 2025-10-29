@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SDA.Data;
 using SDA.Models;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace SDA.Controllers
 {
@@ -121,7 +122,13 @@ namespace SDA.Controllers
             return RedirectToAction(nameof(ConsultaSexo));
         }
 
-        // Acción para la vista de propietario --------------------------------------------------------------------------------------------------------
+        // Acción para la vista de municipio --------------------------------------------------------------------------------------------------------
 
+        [HttpGet]
+
+        public async Task<IActionResult> ConsultaMunicipio()
+        {
+            return View(await _context.Municipio.ToListAsync());
+        }
     }
 }
